@@ -35,5 +35,14 @@ public class interestString {
         System.out.println("index of: -" + i + "-");
         System.out.println("last index of: -" + j + "-");
 
+
+        String s = "potato apple lemon orange";
+
+        String[] vect = s.split(" ");
+
+        System.out.println(vect[0]);
+        System.out.println(vect[1]);
+        System.out.println(vect[2]);
+        System.out.println(vect[3]);
     }
 }
