@@ -21,6 +21,8 @@ public class interestString {
         String s05 = original.substring(2, 8);
         String s06 = original.replace('a', 'x');
         String s07 = original.replace("abc", "xyz");
+        int i = original.indexOf("bc");
+        int j = original.lastIndexOf("bc");
 
         System.out.println("Original: -" + original + "-");
         System.out.println("toLowerCase: -" + s01 + "-");
@@ -30,5 +32,8 @@ public class interestString {
         System.out.println("substring2: -" + s05 + "-");
         System.out.println("replace('a', 'x'): -" + s06 + "-");
         System.out.println("replace('abc', 'xyz'): -" + s07 + "-");
+        System.out.println("index of: -" + i + "-");
+        System.out.println("last index of: -" + j + "-");
+
     }
 }
