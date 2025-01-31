@@ -11,6 +11,9 @@
     Versão 3: classe Calculator com método estático
 
 
-    dentro de um método estático não pode ter métodos não estáticos, então
+    version1 = dentro de um método estático não pode ter métodos não estáticos, então
     dentro do metodo main() por exemplo, todos os métodos usado devem ser
     estáticos também.
+
+    version2 = com métodos comuns importados, é necessário instanciar eles para utilizar
+    seus métodos

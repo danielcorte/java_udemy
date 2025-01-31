@@ -1,0 +1,32 @@
+DISCUSSÃO
+
+- No problema dos triângulos, cada
+triângulo possui sua área.
+
+- Area() é uma operação concernente ao
+objeto: cada triângulo possui sua área.
+
+x -> [ 3.0 | 4.0 | 5.0 ] x.area()
+        A     B     C       6.0
+                                    Operação de instância --> cada objeto tem seu valor (comportamento específico)
+x -> [ 7.5 | 4.5 | 4.02 ] y.area()
+        A     B     C     7.5638
+
+- Já no caso da calculadora, os valores dos cálculos não mudam para calculadoras diferentes,
+ou seja, são cálculos estáticos estáticos. O valor de Pi também é estático.
+
+Exemplo:
+Calculator calc1 = new Calculator();
+Calculator calc2 = new Calculator();
+
+calc1 -> [3.14]                           calc1.PI
+           Pi                               3.14
+                                    calc1.circumference(3.0)
+                                            18.85
+
+calc2 -> [3.14]                           calc2.PI
+           Pi                               3.14
+                                    calc1.circumference(3.0)
+                                            18.85
+
+Independente do objeto, os metodos circum e pi sempre retornaram o mesmo valor se o parâmetro for o mesmo
