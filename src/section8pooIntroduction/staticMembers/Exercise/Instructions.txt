@@ -1,0 +1,16 @@
+    Fazer um programa para ler um valor numérico qualquer, e daí mostrar quanto
+    seria o valor de uma cincunferência e do volume de uma esfera para um raio
+    daquele valor. Informar também o valor de PI com duas casas decimais.
+
+    Versão 1: métodos na própria classe do programa
+        Nota: dentro de um método estático você não pode chamar membros de
+        instância da mesma classe.
+
+    Versão 2: classe Calculator com membros de instância.
+
+    Versão 3: classe Calculator com método estático
+
+
+    dentro de um método estático não pode ter métodos não estáticos, então
+    dentro do metodo main() por exemplo, todos os métodos usado devem ser
+    estáticos também.
