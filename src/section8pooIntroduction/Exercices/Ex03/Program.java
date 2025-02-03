@@ -1,6 +1,6 @@
-package section8pooIntroduction.Exercices;
+package section8pooIntroduction.Exercices.Ex03;
 
-public class Ex03 {
+public class Program {
 
     public static void main(String[] args) {
 
@@ -13,5 +13,9 @@ public class Ex03 {
         (que e 60% da nota). Voce deve criar uma classe Student
         para resolver este problema.
          */
+
+        Student student = new Student();
+        student.
+
     }
 }
