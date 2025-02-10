@@ -12,14 +12,15 @@ public class Student {
     boolean student_situation;
 
     final double MIN_GRADE = 6.00;
-    public static List<String> first_qua_grades = new ArrayList<>(),
-            second_qua_grades = new ArrayList<>(),
-            third_qua_grades = new ArrayList<>();
+    public static List<String> first_qua_grades = new ArrayList<>();
+    public static List<String> second_qua_grades = new ArrayList<>();
+    public static List<String> third_qua_grades = new ArrayList<>();
+    public static List<String> all_grades = new ArrayList<>();
     static double grade;
 
     double average;
 
-    public static double listGrades() {
+    public static List<String> listGrades() {
 
         for (int i = 0; i < 3; i++) {
 
@@ -28,16 +29,16 @@ public class Student {
                 grade = sc.nextDouble();
 
                 if (i == 0) {
-                    first_qua_grades.add(j, String.valueOf(grade));
+                    all_grades.add(j, String.valueOf(grade));
                 } else if (i == 1) {
-                    second_qua_grades.add(j, String.valueOf(grade));
+                    all_grades.add(j, String.valueOf(grade));
                 } else {
-                    third_qua_grades.add(j, String.valueOf(grade));
+                    all_grades.add(j, String.valueOf(grade));
                 }
 
             }
         }
 
-        return first_qua_grades, second_qua_grades, third_qua_grades;
+        return all_grades;
     }
 }

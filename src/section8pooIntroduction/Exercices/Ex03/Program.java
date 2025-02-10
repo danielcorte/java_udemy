@@ -1,5 +1,6 @@
 package section8pooIntroduction.Exercices.Ex03;
 
+
 public class Program {
 
     public static void main(String[] args) {
@@ -15,7 +16,6 @@ public class Program {
          */
 
         Student student = new Student();
-        student.
 
     }
 }
