@@ -1,0 +1,10 @@
+# Gerando automaticamente construtores, getters e setters
+
+1. Botões: Alt + Insert
+
+2. Selecionar: Getter Setter
+
+3. Pressione Ctrl + Click com botão esquerdo em todos os atributos
+
+4. Clicar no botão "OK"
+

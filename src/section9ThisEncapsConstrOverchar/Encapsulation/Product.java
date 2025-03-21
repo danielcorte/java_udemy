@@ -31,14 +31,14 @@ public class Product {
         return price;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
-    }
+    public void setPrice(Double price) { this.price = price; }
 
     public Integer getQuantity() {
         return quantity;
     }
 
+    /* O setQuantity deve ser utilizado somente quando houver um evento de compra ou venda, dessa forma
+     * protegendo a integridade dos produtos */
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
