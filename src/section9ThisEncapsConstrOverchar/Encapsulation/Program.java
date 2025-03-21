@@ -17,7 +17,10 @@ public class Program {
         double price = sc.nextDouble();
 
         Product product = new Product(name, price);
-        Product.setName("Computer");
+        product.setName("Computer");
+        System.out.println("Updated name: " + product.getName());
+        product.setPrice(1350.99);
+        System.out.println("Updated price: " + product.getPrice());
 
         System.out.println("Product data: " + Product.s + ", $" + product.price + ", " + product.quantity + " units");
 

@@ -23,20 +23,20 @@ public class Product {
         return name;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public static void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setPrice(double price) {
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
     }
 
     public void setQuantity(int quantity) {
