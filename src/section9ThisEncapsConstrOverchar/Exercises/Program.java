@@ -38,19 +38,25 @@ public class Program {
         Product conta = new Product(num_conta, nome, dep_inicial);
 
         System.out.println("---------------------------------------");
-        System.out.printf("Novo usuário %s cadastrado!", nome);
+        System.out.println("Dados da conta:");
+        System.out.printf("Conta %d, Responsável: %s, Saldo: $ %.2f", conta.num_conta, conta.nome, conta.saldo);
         System.out.println();
         System.out.println("---------------------------------------");
 
 
         System.out.print("Qual o montante do valor a ser recolhido: ");
         saque = parseInt(sc.nextLine());
-        System.out.printf("Saldo atualizado! Novo valor: %.2f", saque);
+        conta.novo_saque(saque);
+        System.out.println("Dados da conta:");
+        System.out.printf("Conta %d, Responsável: %s, Saldo: $ %.2f", conta.num_conta, conta.nome, conta.saldo);
         System.out.println();
 
         System.out.print("Qual a quantidade do valor a ser depositado: ");
         deposito = parseInt(sc.nextLine());
-        System.out.printf("Saldo atualizado! Novo valor: %.2f\n", deposito);
+        conta.novo_deposito(deposito);
+        System.out.println("Dados da conta:");
+        System.out.printf("Conta %d, Responsável: %s, Saldo: $ %.2f", conta.num_conta, conta.nome, conta.saldo);
+        System.out.println();
 
         System.out.println("---------------------------------------");
     }

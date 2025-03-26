@@ -5,7 +5,7 @@ public class Product {
     int num_conta;
     String nome;
     double deposito_inicial = 0;
-    private double saldo;
+    double saldo;
 
     public Product() {
 
@@ -21,7 +21,7 @@ public class Product {
         this.num_conta = num_conta;
         this.nome = nome;
         this.deposito_inicial = deposito_inicial;
-        this.saldo = saldo;
+        this.saldo += deposito_inicial;
     }
 
     public int getNum_conta() {
