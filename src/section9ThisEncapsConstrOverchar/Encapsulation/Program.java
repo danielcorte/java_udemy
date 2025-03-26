@@ -22,7 +22,7 @@ public class Program {
         product.setPrice(1350.99);
         System.out.println("Updated price: " + product.getPrice());
 
-        System.out.println("Product data: " + Product.s + ", $" + product.price + ", " + product.quantity + " units");
+        /*System.out.println("Product data: " + Product.s + ", $" + product.price + ", " + product.quantity + " units");*/
 
         sc.close();
     }
